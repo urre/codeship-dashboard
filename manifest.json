@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Codeship Dashboard",
+  "description": "This extension redirects https://codeship.com to the Dashboard https://app.codeship.com/home. No more clicks on 'Go to dashboard'",
+  "version": "0.1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+		"16": "./src/icons/icon-16.png",
+		"48": "./src/icons/icon-48.png",
+		"128": "./src/icons/icon.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"19": "./src/icons/icon-19.png",
+			"38": "./src/icons/icon-38.png"
+		}
+	},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://codeship.com/"
+      ],
+      "js": [
+        "src/js/codeship-dashboard.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
