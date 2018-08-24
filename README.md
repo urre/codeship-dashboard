@@ -15,8 +15,7 @@ This extension just redirects https://codeship.com to the Dashboard https://app.
 + Navigate to the folder where you saved it
 
 ## Usage
-+ Visit
-+ Click the Code Block button!
++ Visit https://codeship.com, you will be redirected to https://app.codeship.com/home
 
 ### Changelog
 + 2018-08-24: 🎉 First version released
