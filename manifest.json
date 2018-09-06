@@ -20,7 +20,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://codeship.com/"
+        "https://www.cloudbees.com/products/cloudbees-codeship"
       ],
       "js": [
         "src/js/codeship-dashboard.js"
