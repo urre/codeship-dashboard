@@ -20,7 +20,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://codeship.com"
+        "https://codeship.com/*"
       ],
       "js": [
         "src/js/codeship-dashboard.js"
